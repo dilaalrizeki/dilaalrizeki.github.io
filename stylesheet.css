@@ -7,12 +7,12 @@
 
 .calculator-screen {
 	width: 100%;
-	height: : 100px;
-	background-color: #252525;
-	color: #fff;
+	height: 70px;
+	background-color: #dfe6e9;
+	color: #000;
 	text-align: right;
 	font-size: 36px;
-	border: none;
+	border: 1px solid black;
 	padding: 0 20px;
 	box-sizing: border-box;
 }
@@ -27,7 +27,7 @@
 
 button, #percentage {
 	height: 80px;
-	background-color: gray;
+	background-color: #2d3436;
 	border: 1px solid black;
 	font-size: 32px;
 	color: #fff;
@@ -36,11 +36,11 @@ button, #percentage {
 }
 
 button:hover, #percentage:hover {
-	background-color: darkgray;
+	background-color: #636e72;
 }
 
 .operator:hover, .equal-sign:hover {
-	background-color: darkorange;
+	background-color: #55efc4;
 }
 
 .all-clear, .zero-btn {
@@ -48,5 +48,5 @@ button:hover, #percentage:hover {
 }
 
 .operator, .equal-sign {
-	background-color: orange;
+	background-color: #00b894;
 }
